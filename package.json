@@ -1,0 +1,26 @@
+{
+  "name": "firstappnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev" : "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaroonChelsea/firstAppNodejs.git"
+  },
+  "author": "Haroon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaroonChelsea/firstAppNodejs/issues"
+  },
+  "homepage": "https://github.com/HaroonChelsea/firstAppNodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
