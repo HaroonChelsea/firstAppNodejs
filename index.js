@@ -19,8 +19,6 @@ http.createServer((req, res) => {
     });
   } else {
     let filename = `${__dirname}/template` + getUrl.pathname + '.html';
-    console.log(getUrl.pathname);
-    console.log(filename);
     fs.readFile(filename, (err, data) => {
       if (err) {
         console.log('EWWROOR');
